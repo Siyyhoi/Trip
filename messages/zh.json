@@ -1,9 +1,22 @@
 {
-    "Nav": {
-      "home": "首页",
-      "products": "产品",
-      "map": "地图",
-      "openMenu": "打开菜单"
-    }
+  "Nav": {
+    "home": "首页",
+    "products": "产品",
+    "map": "地图",
+    "openMenu": "打开菜单"
+  },
+  "District": {
+    "chom-thong": "宗通",
+    "chiang-dao": "清道",
+    "chai-prakan": "猜巴干",
+    "doi-saket": "堆沙革",
+    "fang": "芳县",
+    "hang-dong": "杭东",
+    "mueang-chiang-mai": "清迈府治县",
+    "mae-taeng": "湄登",
+    "mae-rim": "湄林",
+    "mae-on": "湄安",
+    "mae-ai": "湄艾",
+    "san-kamphaeng": "讪甘烹"
   }
-  
+}

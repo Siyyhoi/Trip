@@ -4,6 +4,20 @@
       "products": "Products",
       "map": "Map",
       "openMenu": "Open menu"
+    },
+    "District": {
+      "chom-thong": "Chom Thong",
+      "chiang-dao": "Chiang Dao",
+      "chai-prakan": "Chai Prakan",
+      "doi-saket": "Doi Saket",
+      "fang": "Fang",
+      "hang-dong": "Hang Dong",
+      "mueang-chiang-mai": "Mueang Chiang Mai",
+      "mae-taeng": "Mae Taeng",
+      "mae-rim": "Mae Rim",
+      "mae-on": "Mae On",
+      "mae-ai": "Mae Ai",
+      "san-kamphaeng": "San Kamphaeng"
     }
   }
   
