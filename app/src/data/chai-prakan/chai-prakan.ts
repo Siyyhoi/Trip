@@ -1,79 +1,78 @@
 export const ChaiPrakanTrips = [
-    {
-      id: "Baan-Mai-Noong-Bua",
-      title: {
-        en: "Baan Mai Noong Bua",
-        zh: "班迈农布村"
-      },
-      price: {
-        en: "Free",
-        zh: "免费"
-      },
-      hours: {
-        en: "08:00 – 17:00",
-        zh: "08:00 – 17:00"
-      },
-      detail: {
-        en: "The villagers still uphold the traditional lifestyle of their Yunnanese Chinese ancestors, including customs, clothing, food, local specialties, and agricultural products. There is a natural mineral spring where visitors can soak their feet. The area also has shrines to Guanyin and Guan Yu, and on holidays, villagers perform community shows. The Ban Mai Nong Bua (Xiang Sun) route is also a path to Doi Ang Khang, which is less steep than the main route, with interesting spots to visit along the way.",
-        zh: "村民们仍然保留着云南华人祖先的传统生活方式，包括习俗、服饰、饮食、当地特产和农产品。这里有天然矿泉，可供游客泡脚。区域内还有观音与关羽的神庙，节假日期间村民会进行社区表演。班迈农布村（香孙）路线也是前往昂康山的道路之一，相比主路线坡度较缓，沿途有许多值得参观的景点。"
-      }
+  {
+    id: "Baan-Mai-Nong-Bua",
+    title: {
+      en: "Baan Mai Nong Bua",
+      zh: "班迈农布村 (Baan Mai Nong Bua)"
     },
-    {
-      id: "Hinoki-Land",
-      title: {
-        en: "Hinoki Land",
-        zh: "桧木乐园"
-      },
-      price: {
-        en: "Foreign adults: 230 THB, Foreign children: 70 THB, Children under 120 cm: Free. Kimono/Yukata rental: Adults 350 THB, Children 100 THB.",
-        zh: "外国成人230泰铢，外国儿童70泰铢，身高120厘米以下儿童免费。和服/浴衣租赁：成人350泰铢，儿童100泰铢。"
-      },
-      hours: {
-        en: "Open daily from 08:00 to 17:00.",
-        zh: "每日开放 08:00 – 17:00"
-        },
-      detail: {
-        en: "It is a model city inspired by Japan, decorated with a giant red lantern like Tokyo’s Senso-ji Temple. There are red torii pillars reminiscent of Kyoto’s Fushimi Inari Shrine, and a hinoki wood castle entirely built from fragrant wood. Surrounded by mountains and gardens, Hinoki Land features a Japanese restaurant, souvenir shops, and many beautiful photo spots. There is also a kimono rental service, allowing visitors to dress in Japanese style.",
-        zh: "桧木乐园是一座以日本为灵感打造的仿真城市，拥有类似东京浅草寺的大型红色灯笼、仿京都伏见稻荷大社的红色鸟居，以及完全由芳香桧木建成的城堡。园区被群山和花园环绕，设有日本餐厅、纪念品商店以及众多拍照打卡点，并提供和服租赁服务，让游客体验日式服装文化。"
-      }
+    price: {
+      en: "Free Admission",
+      zh: "免费入场"
     },
-    {
-      id: "Go-Lak-Date-Palm",
-      title: {
-        en: "Go Lak Date Palm",
-        zh: "Go Lak 凤凰果园"
-      },
-      price: {
-        en: "Free (no specific entrance fee, charges apply for food or products)",
-        zh: "免费（无固定门票，内部餐饮或产品需付费）"
-      },
-      hours: {
-        en: "Operating hours: 08:00 - 17:00.",
-        zh: "营业时间：08:00 - 17:00。"
-      },
-      detail: {
-        en: "Suan Ko Lak provides food and drinks, as well as processed products made from dates for sale.",
-        zh: "Go Lak 日期棕榈园提供食品饮料以及由枣加工制成的产品供出售。"
-      }
-      },
-      {
-      id: "Doi-Wiang-Pha-National-Park",
-      title: {
-        en: "Doi Wiang Pha National Park",
-        zh: "德旺帕国家公园"
-      },
-      price: {
-        en: "No official entrance fee (may vary or contact park for updates).",
-        zh: "暂无官方门票（可能有所变动，请联系公园咨询）。"
-      },
-      hours: {
-        en: "Operating hours: 08:00 - 18:00.",
-        zh: "营业时间：08:00 - 18:00。"
-      },
-      detail: {
-        en: "Along the winding mountain road, in January, the Queen Tiger Flower (Nang Phaya Suea Krong) blooms together, forming a sweet pink tunnel along the way. Additionally, Khum Village and the Ban Khop Dong viewpoint are also excellent spots to admire the equally beautiful Nang Phaya Suea Krong blossoms.",
-        zh: "沿着蜿蜒的山路，每年一月，虎王花（Nang Phaya Suea Krong）盛开形成粉红色的花隧道。此外，Khum 村和 Ban Khop Dong 观景台也是欣赏美丽虎王花的绝佳地点。"
-      }
-    }  
-  ]
-  
+    hours: {
+      en: "Daily 08:00 – 17:00",
+      zh: "每天 08:00 – 17:00"
+    },
+    detail: {
+      en: "The villagers maintain the traditional lifestyle of their Yunnanese Chinese ancestors, including customs, clothing, and food. Visitors can soak their feet in a natural mineral spring, visit Guanyin and Guan Yu shrines, or watch cultural shows on holidays. This village is also located on a scenic alternative route to Doi Ang Khang.",
+      zh: "村民们仍然保留着云南华人祖先的传统生活方式，包括习俗、服饰、饮食和特产。这里有天然矿泉可供游客泡脚，还有观音与关羽庙。节假日期间，村民会进行传统表演。此外，这里也是前往昂康山（Doi Ang Khang）的一条风景优美的替代路线。"
+    }
+  },
+  {
+    id: "Hinoki-Land",
+    title: {
+      en: "Hinoki Land",
+      zh: "桧木乐园 (Hinoki Land)"
+    },
+    price: {
+      en: "Foreigner: Adults 230 THB, Children 70 THB. (Costume rental extra)",
+      zh: "外国人：成人 230 泰铢，儿童 70 泰铢（服装租赁另计）"
+    },
+    hours: {
+      en: "Daily 08:00 - 17:00",
+      zh: "每天 08:00 - 17:00"
+    },
+    detail: {
+      en: "A Japanese-themed attraction featuring a giant red lantern inspired by Senso-ji Temple and red torii gates like Fushimi Inari. The highlight is a castle built entirely from fragrant Hinoki wood. Visitors can enjoy Japanese food, rent Kimonos for photos, and explore the beautiful gardens.",
+      zh: "这是一座以日本为灵感打造的景点，拥有仿浅草寺的大红灯笼和仿伏见稻荷大社的红色鸟居。最大亮点是完全由芳香桧木建成的城堡。游客可以品尝日式美食，租赁和服拍照，并探索美丽的花园。"
+    }
+  },
+  {
+    id: "Go-Lak-Date-Palm",
+    title: {
+      en: "Go Lak Date Palm",
+      zh: "Go Lak 椰枣园 (Go Lak Date Palm)"
+    },
+    price: {
+      en: "Free Admission (Products available for purchase)",
+      zh: "免费入场 (可购买产品)"
+    },
+    hours: {
+      en: "Daily 08:00 - 17:00",
+      zh: "每天 08:00 - 17:00"
+    },
+    detail: {
+      en: "Go Lak Garden offers fresh date palm fruits and processed date products. It is a great stop to enjoy refreshing drinks and buy local souvenirs.",
+      zh: "Go Lak 园提供新鲜的椰枣（Date Palm）以及各种椰枣加工产品。这是一个很好的休息站，可以享用清爽的饮料并购买当地纪念品。"
+    }
+  },
+  {
+    id: "Doi-Wiang-Pha-National-Park",
+    title: {
+      en: "Doi Wiang Pha National Park",
+      zh: "威昂帕国家公园 (Doi Wiang Pha)"
+    },
+    price: {
+      en: "Foreigner: Adults 100 THB, Children 50 THB",
+      zh: "外国人：成人 100 泰铢，儿童 50 泰铢"
+    },
+    hours: {
+      en: "Daily 08:00 - 18:00",
+      zh: "每天 08:00 - 18:00"
+    },
+    detail: {
+      en: "Famous for the Wild Himalayan Cherry blossoms (Thai Sakura) that form a pink tunnel along the winding mountain roads in January. Nearby spots like Ban Khop Dong also offer stunning views of these flowers.",
+      zh: "这里以每年一月盛开的虎王花（又称泰国樱花）而闻名，沿着蜿蜒的山路形成一条粉红色的隧道。附近的 Khum 村和 Ban Khop Dong 观景台也是欣赏花海的绝佳地点。"
+    }
+  }
+];
