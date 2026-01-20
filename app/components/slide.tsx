@@ -18,89 +18,75 @@ const extendedImages = [
 
 export default function ImageSlider() {
   const [index, setIndex] = useState(1);
-  const [animate, setAnimate] = useState(true);
   const [imageWidth, setImageWidth] = useState(600);
   const [gap, setGap] = useState(40);
 
-  // 📱 responsive size
+  // responsive
   useEffect(() => {
-    const handleResize = () => {
+    const resize = () => {
       const w = window.innerWidth;
-
       if (w < 640) {
-        // mobile
-        setImageWidth(w * 0.8); // เห็นข้าง ๆ นิดเดียว
+        setImageWidth(w * 0.8);
         setGap(16);
       } else if (w < 1024) {
-        // tablet
         setImageWidth(480);
         setGap(24);
       } else {
-        // desktop
         setImageWidth(600);
         setGap(40);
       }
     };
 
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    resize();
+    window.addEventListener("resize", resize);
+    return () => window.removeEventListener("resize", resize);
   }, []);
 
   const STEP = imageWidth + gap;
 
+  // auto slide
   useEffect(() => {
     const timer = setInterval(() => {
-      setIndex((prev) => prev + 1);
+      setIndex((i) => i + 1);
     }, 5000);
     return () => clearInterval(timer);
   }, []);
 
+  // loop
   useEffect(() => {
     if (index === extendedImages.length - 1) {
-      setTimeout(() => {
-        setAnimate(false);
-        setIndex(1);
-      }, 800);
+      setTimeout(() => setIndex(1), 800);
     }
   }, [index]);
 
-  useEffect(() => {
-    if (!animate) requestAnimationFrame(() => setAnimate(true));
-  }, [animate]);
-
   return (
     <div className="w-full py-20 flex justify-center overflow-hidden">
-      {/* container คุมกึ่งกลาง */}
-      <div
-        className="relative"
-        style={{ width: imageWidth }}
-      >
+      <div className="relative" style={{ width: imageWidth }}>
         <motion.div
           className="flex items-center"
-          animate={{ x: `-${index * STEP}px` }}
-          transition={
-            animate
-              ? { duration: 1, ease: "easeInOut" }
-              : { duration: 0 }
-          }
           style={{ gap }}
+          animate={{ x: `-${index * STEP}px` }}
+          transition={{ duration: 1, ease: "easeInOut" }}
         >
           {extendedImages.map((src, i) => (
-            <motion.img
+            <div
               key={i}
-              src={src}
+              className="shrink-0 overflow-hidden rounded-3xl"
               style={{
                 width: imageWidth,
-                height: imageWidth * 0.6, // ratio สวยบนมือถือ
+                aspectRatio: "16 / 9",
               }}
-              className="object-cover rounded-3xl shadow-xl"
-              animate={{
-                scale: i === index ? 1 : 0.88,
-                opacity: i === index ? 1 : 0.4,
-              }}
-              transition={{ duration: 0.4 }}
-            />
+            >
+              <motion.img
+                src={src}
+                className="w-full h-full object-cover rounded-3xl"
+                animate={{
+                  scale: i === index ? 1 : 0.9,
+                  opacity: i === index ? 1 : 0.35,
+                }}
+                transition={{ duration: 0.4 }}
+              />
+            </div>
           ))}
         </motion.div>
       </div>
