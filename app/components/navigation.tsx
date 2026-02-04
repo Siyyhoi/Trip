@@ -34,7 +34,8 @@ export default function Navigation() {
   const navigationLinks = [
     { key: 'home', href: '/' },
     { key: 'products', href: './products/' },
-    { key: 'map', href: './maps/' }
+    { key: 'map', href: './maps/' },
+    { key: 'essentials', href: './essentials/' }
   ]
 
   const locales = [

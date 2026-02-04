@@ -226,7 +226,7 @@ export default function RefactoredProductShowcase() {
                     <button onClick={() => setQuantity(quantity + 1)} className="px-3 py-2">+</button>
                   </div>
 
-                  <button className="flex-1 bg-gradient-to-r from-yellow-400 to-yellow-500 text-gray-900 font-bold py-3 rounded-lg shadow hover:scale-[1.01] transition">
+                  <button className="flex-1 bg-linear-to-r from-yellow-400 to-yellow-500 text-gray-900 font-bold py-3 rounded-lg shadow hover:scale-[1.01] transition">
                     {locale === "en" ? "Add to bag" : "加入购物袋"}
                   </button>
                 </div>
