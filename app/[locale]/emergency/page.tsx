@@ -93,9 +93,6 @@ export default function EmergencyPage() {
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 w-full max-w-7xl z-10"
       >
         {emergencyContacts.map((item) => {
-            // 3. Logic สลับชื่อตามภาษา
-            // ถ้า EN: โชว์ Title เป็นหลัก (อังกฤษ/ไทย)
-            // ถ้า ZH: โชว์ TitleCn เป็นหลัก (จีน)
             const displayTitle = isEn ? item.title : item.titleCn;
             const displaySubtitle = isEn ? item.titleCn : item.title;
 
