@@ -16,6 +16,10 @@ export const SanKamphaengTrip = [
     detail: {
       en: "A famous cultural festival in San Kamphaeng featuring colorful handmade umbrellas. Visitors can explore the umbrella-making village, enjoy traditional performances, shop for local handicrafts, and take photos with beautifully decorated umbrellas along the streets.",
       zh: "这是三甘烹著名的传统文化节，以色彩鲜艳的手工伞闻名。游客可以参观制伞村，欣赏传统表演，购买当地手工艺品，并在街道上与装饰精美的雨伞拍照留念。"
+    },
+    detail_more: {
+      img: "ImgTrip/san-kamphaeng/Borsang-Umbrella-Festival.jpg",
+      video: ""
     }
   },
   {
@@ -35,6 +39,10 @@ export const SanKamphaengTrip = [
     detail: {
       en: "A large recreation area with beautiful scenery. Visitors enjoy picnicking, camping by the reservoir, fishing, and rowing boats. The dam road is perfect for scenic drives and photography. It is also known as a beautiful sunset viewing point and plays an important role in supporting the local ecosystem.",
       zh: "这是一个风景优美的大型休闲区。游客可以在水库旁野餐、露营、钓鱼或划船。水坝道路适合驾车观景和拍照，也是欣赏日落的绝佳地点。同时，它对当地生态系统的发展具有重要作用。"
+    },
+    detail_more: {
+      img: "ImgTrip/san-kamphaeng/Huai-Lan-Reservoir.jpg",
+      video: ""
     }
   },
   {
@@ -54,6 +62,10 @@ export const SanKamphaengTrip = [
     detail: {
       en: "Chiang Mai’s newest contemporary art museum located on San Kamphaeng Road. The museum features rotating exhibitions from Thai and international artists, short films, and creative installations. Its striking mirrored architecture has become a new landmark of Chiang Mai.",
       zh: "这是清迈最新的当代艺术博物馆，位于三甘烹路。馆内展出泰国及国际艺术家的轮换展览、短片和创意装置艺术。其独特的镜面建筑设计已成为清迈的新地标。"
+    },
+    detail_more: {
+      img: "ImgTrip/san-kamphaeng/MAIIAM-Contemporary-Art-Museum.jpg",
+      video: ""
     }
   },
   {
@@ -73,6 +85,10 @@ export const SanKamphaengTrip = [
     detail: {
       en: "A new tourist attraction on the San Kamphaeng–Mae On road. The farm is surrounded by mountain views and decorated in Dutch style. Visitors can get close to miniature horses, sheep, and geese, making it a fun destination for families and animal lovers.",
       zh: "位于三甘烹–湄翁路上的新旅游景点。农场四周环绕群山，采用荷兰风格装饰。游客可以近距离接触迷你马、绵羊和鹅，非常适合家庭和喜爱动物的游客。"
+    },
+    detail_more: {
+      img: "ImgTrip/san-kamphaeng/Dutch-Farm-Miniature-Horse-Farm.jpg",
+      video: ""
     }
   }
 ];

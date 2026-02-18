@@ -16,6 +16,10 @@ export const DoiSaketTrips = [
     detail: {
       en: "This is the golden pagoda of Wat Phra That Doi Saket, standing prominently on the mountain. It is an ancient pagoda over 1,000 years old, housing the hair relics of the Lord Buddha.",
       zh: "这是位于山顶的素帖沙革佛塔金色佛塔，十分醒目。该佛塔已有一千多年历史，塔内供奉着佛陀的头发舍利。"
+    },
+    detail_more: {
+      img: "ImgTrip/doi-saket/Wat-Phra-That-Doi-Saket.jpg",
+      video: ""
     }
   },
   {
@@ -35,6 +39,10 @@ export const DoiSaketTrips = [
     detail: {
       en: "A riverside cafe in the middle of a shady forest. The wooden structures are outstanding, featuring a Tarzan house, a Hobbit house, and a suspension bridge. To reach the shop, you walk about 200 meters through bamboo forests and across the bridge, truly immersing yourself in nature.",
       zh: "一家位于森林与溪流中的咖啡馆，环境清幽凉爽。咖啡馆由木屋建筑组成，包括泰山屋、霍比特屋以及吊桥，是热门的拍照打卡地点。进入店铺需要步行约 200 米，穿过竹林、沿着溪流并跨过吊桥，真正符合“Take a Walk（走进去）”的概念。到达后能完全沉浸在大自然之中。"
+    },
+    detail_more: {
+      img: "ImgTrip/doi-saket/Take-a-Walk-house-&-coffee.jpg",
+      video: ""
     }
   },
   {
@@ -54,6 +62,10 @@ export const DoiSaketTrips = [
     detail: {
       en: "It is a large botanical garden covering an area of more than 302 rai. It serves as a center for studying various plants, including palms, cycads, succulents, bromeliads, ferns, and seasonal flowers. The garden is beautifully arranged, making it perfect for visiting and relaxing.",
       zh: "这是一个占地超过 302 莱的大型植物园，是学习和研究多种植物的中心，包括棕榈类、苏铁、耐旱植物、多肉植物、开花植物、凤梨科植物、观叶植物、蕨类以及季节性花卉。同时园区布置精美，适合游客参观和休闲。"
+    },
+    detail_more: {
+      img: "ImgTrip/doi-saket/Tweechol-Botanic-Garden-&-Horizon-Village.jpg",
+      video: ""
     }
   },
   {
@@ -73,6 +85,10 @@ export const DoiSaketTrips = [
     detail: {
       en: "The suspension bridge connecting Ban Pa Sak Ngam village and Doi Saket district facilitates local travel and offers beautiful scenery. It has become a new landmark of Doi Saket.",
       zh: "这座横跨湄广河的吊桥连接了班帕萨甘村与沙革县，不仅方便当地居民出行，这里的景色也十分优美。如今已成为沙革县新的地标之一。"
+    },
+    detail_more: {
+      img: "ImgTrip/doi-saket/Mae-Kuang-Udom-Thara-Reservoir-from-the-Dam-Road.jpg",
+      video: ""
     }
   },
   {
@@ -92,6 +108,10 @@ export const DoiSaketTrips = [
     detail: {
       en: "A restaurant and cafe by the stream with a cool and comfortable atmosphere. Located not far from Chiang Mai city, it is surrounded by tall trees and the sound of flowing water, making it perfect for families, friends, or couples to relax.",
       zh: "一家位于溪流旁的餐厅和咖啡馆，环境清凉舒适，交通方便，距离清迈市区不远。店铺被高大的树木环绕，可听到潺潺流水声，非常适合家庭、朋友聚会或情侣前来放松休闲。"
+    },
+    detail_more: {
+      img: "ImgTrip/doi-saket/Pang-Fan.jpg",
+      video: ""
     }
   }
 ];

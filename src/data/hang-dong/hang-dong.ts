@@ -11,11 +11,15 @@ export const HangDongTrip = [
     },
     hours: {
       en: "Open daily (Check official page for latest hours)",
-      zh: "每日开放（建议查看官方时间）"
+      zh: "每日开放（建议查看官方时间）"           
     },
     detail: {
       en: "The largest outdoor water park in northern Chiang Mai. Offers water sliders, kayaking, canoeing, cliff jumping, zipline (1 round included), and wakeboarding. Great for adventure lovers.",
       zh: "清迈北部大型户外水上乐园，提供滑水道、皮划艇、跳崖、滑索和滑水活动，适合喜欢刺激活动的游客。"
+    },
+    detail_more: {
+      img: "ImgTrip/hang-dong/grand-canyon-water-park.jpg",
+      video: ""
     }
   },
   {
@@ -35,6 +39,10 @@ export const HangDongTrip = [
     detail: {
       en: "Famous for its steep canyon cliffs and the Mae Khan River flowing through the middle. Shallow water areas make it suitable for swimming and photography.",
       zh: "以峡谷峭壁和湄坎河闻名，水位较浅，适合游泳和拍照。"
+    },
+    detail_more: {
+      img: "ImgTrip/hang-dong/Ob-Khan-National-Park.jpg",
+      video: ""
     }
   },
   {
@@ -54,6 +62,10 @@ export const HangDongTrip = [
     detail: {
       en: "A beautiful classic Lanna-style wooden temple in the countryside. Known for its traditional viharn and peaceful atmosphere.",
       zh: "经典兰纳风格木质寺庙，环境安静，非常适合拍照和参观。"
+    },
+    detail_more: {
+      img: "ImgTrip/hang-dong/Wat-Ton-Kwen.jpg",
+      video: ""
     }
   },
   {
@@ -73,6 +85,10 @@ export const HangDongTrip = [
     detail: {
       en: "One of Thailand’s largest wood carving communities. Visitors can shop for high-quality wood crafts, home decorations, and handmade souvenirs.",
       zh: "泰国大型木雕村，可购买优质木雕和家居装饰品。"
+    },
+    detail_more: {
+      img: "ImgTrip/hang-dong/Ban-Tawai-Wood-Carving.jpg",
+      video: ""
     }
   },
   {
@@ -92,6 +108,10 @@ export const HangDongTrip = [
     detail: {
       en: "Also known as Phra That Si Mueang Pong. A stunning white temple considered the 2nd metal castle in Thailand and 4th in the world.",
       zh: "又称 Phra That Si Mueang Pong，是泰国第二座金属城堡式寺庙，外观洁白壮观。"
+    },
+    detail_more: {
+      img: "ImgTrip/hang-dong/Wat-Aranyawat.jpg",
+      video: ""
     }
   }
 ];

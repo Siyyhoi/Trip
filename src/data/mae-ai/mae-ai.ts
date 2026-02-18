@@ -16,6 +16,10 @@ export const MaeAiTrips = [
       detail: {
         en: "There are new photography spots. Visitors can sit, drink coffee, and enjoy nature and mountain gardens while capturing the beautiful atmosphere of Suan Roi Jai Rak.",
         zh: "这里新增了多个拍照打卡点，游客可以坐下来喝咖啡，欣赏群山与花园的自然风光，感受罗伊斋拉花园的美丽氛围。"
+      },
+      detail_more: {
+        img: "ImgTrip/mae-ai/ROI-JAI-RAK-GARDEN-&-Market.jpg",
+        video: ""
       }
     },
     {
@@ -35,6 +39,10 @@ export const MaeAiTrips = [
       detail: {
         en: "A European-style agricultural tourism attraction featuring vegetable and fruit plots, animal farms, and cycling routes. There are souvenir shops, restaurants, cafes, wine shops, and pizza available at affordable prices.",
         zh: "欧式风格的农业旅游景点，设有蔬菜水果园区、动物农场，并可骑自行车游览。园内还有纪念品商店、餐厅、咖啡馆、葡萄酒吧和披萨店，价格实惠且美味。"
+      },
+      detail_more: {
+        img: "ImgTrip/mae-ai/Hompandin-Farm.jpg",
+        video: ""
       }
     },
     {
@@ -54,6 +62,10 @@ export const MaeAiTrips = [
       detail: {
         en: "A magnificent temple located on a mountainside with beautiful scenery. The complex spans 9 levels along the slope. From the top, visitors can enjoy panoramic views of the Mae Ai district and surrounding mountains.",
         zh: "这是一座依山而建的宏伟寺庙，风景秀丽。寺庙建筑群沿山坡分布，共分九层。登上顶层，可以俯瞰麦爱县 (Mae Ai) 全景及周围的群山。"
+      },
+      detail_more: {
+        img: "ImgTrip/mae-ai/Wat-tha-ton.jpg",
+        video: ""
       }
     },
     {
@@ -73,6 +85,10 @@ export const MaeAiTrips = [
       detail: {
         en: "More than just an orangery, this orchard offers boat trips and orange picking activities. Varieties include Sai Nam Phueng, Fremont, and Golden Skin oranges. The site also features dragon fruit, bananas, a small cafe, and beautiful panoramic views.",
         zh: "这里不仅仅是一个橘园，还提供乘船游览和采摘橘子的活动。橘子品种包括赛南丰橘 (Sai Nam Phueng)、弗里蒙特橘 (Fremont) 和金皮橘等。此外，园内还有火龙果、香蕉、一个小咖啡馆，以及美丽的全景视野。"
+      },
+      detail_more: {
+        img: "ImgTrip/mae-ai/Thanathorn-Orchard.jpg",
+        video: ""
       }
     },
     {
@@ -92,6 +108,10 @@ export const MaeAiTrips = [
       detail: {
         en: "A beautiful natural tourist destination on the Thai-Myanmar border offering stunning views of both countries. It is a popular spot for watching the sunrise and sunset, where visitors often enjoy local Shan food while taking in the scenery.",
         zh: "位于泰缅边境的美丽自然旅游胜地，可以欣赏两国的壮丽景色。这里是观赏日出和日落的热门地点，游客通常喜欢一边享用当地的掸族美食，一边欣赏美景。"
+      },
+      detail_more: {
+        img: "ImgTrip/mae-ai/Mon-Doi-Lang.jpg",
+        video: ""
       }
     }
   ];
