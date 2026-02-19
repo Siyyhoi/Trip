@@ -82,7 +82,7 @@ export default function ChiangMaiHero() {
             transition={{ delay: 1.2 }}
             className="w-full flex justify-center"
           >
-            <Link href="/essentials" className="w-full md:w-auto">
+            <Link href={`/${locale}/essentials`} className="w-full md:w-auto">
               <motion.button
                 whileHover={{ scale: 1.02, backgroundColor: 'rgba(255, 255, 255, 0.25)' }}
                 whileTap={{ scale: 0.95 }}

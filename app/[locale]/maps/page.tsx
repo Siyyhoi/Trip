@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence, Variants } from 'framer-motion'
 import Link from 'next/link'
-import { useTranslations } from 'next-intl' // 1. Import Hook สำหรับแปลภาษา
+import { useLocale, useTranslations } from 'next-intl' // 1. Import Hook สำหรับแปลภาษา
 import { districts } from '@/src/data/chiangmai-districts'
 
 // --- Animation Variants ---
@@ -31,6 +31,7 @@ export default function ChiangMaiMap() {
   const t = useTranslations('District') 
   const tNav = useTranslations('Nav') // สมมติว่าอยากใช้คำว่า Map หรือ Home จาก Nav
   const tUI = useTranslations('MapUI') 
+  const locale = useLocale()
 
   const [active, setActive] = useState<string | null>(null)
   const activeDistrict = districts.find(d => d.id === active)
@@ -96,7 +97,7 @@ export default function ChiangMaiMap() {
               >
                 <div className="relative -translate-x-1/2 -translate-y-full -mt-3 md:-mt-3">
                   <Link 
-                    href={`/travel/${activeDistrict.id}`}
+                    href={`/${locale}/travel/${activeDistrict.id}`}
                     className="group pointer-events-auto flex items-center gap-3 bg-gray-900 text-white pl-4 pr-3 py-3 rounded-xl shadow-2xl border border-gray-700 hover:bg-black transition-all cursor-pointer"
                   >
                     <div>

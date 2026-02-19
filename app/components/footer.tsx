@@ -4,9 +4,11 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { useLocale } from 'next-intl';
 
 const Footer = () => {
   const [visitorCount, setVisitorCount] = useState<number | null>(null);
+  const locale = useLocale();
 
   useEffect(() => {
     fetch('/api/visitors')
@@ -34,7 +36,7 @@ const Footer = () => {
           whileTap={{ scale: 0.97 }}
           className="flex justify-center md:justify-start"
         >
-          <Link href="/" className="flex items-center gap-3">
+          <Link href={`/${locale}`} className="flex items-center gap-3">
             <Image
               src="/Logo/Logo.png"
               alt="Trip Chin Logo"

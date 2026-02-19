@@ -32,10 +32,10 @@ export default function Navigation() {
   const [isMobile, setIsMobile] = useState(false)
 
   const navigationLinks = [
-    { key: 'home', href: '/' },
-    { key: 'products', href: './products/' },
-    { key: 'map', href: './maps/' },
-    { key: 'essentials', href: './essentials/' }
+    { key: 'home', href: `/${locale}` },
+    { key: 'products', href: `/${locale}/products` },
+    { key: 'map', href: `/${locale}/maps` },
+    { key: 'essentials', href: `/${locale}/essentials` }
   ]
 
   const locales = [
@@ -108,7 +108,7 @@ export default function Navigation() {
 
           {/* LEFT : LOGO */}
           <div className="flex items-center shrink-0">
-            <Link href="/" className="flex items-center" onClick={() => setIsMenuOpen(false)}>
+            <Link href={`/${locale}`} className="flex items-center" onClick={() => setIsMenuOpen(false)}>
               {logoSrc ? (
                 <Image src={logoSrc} alt="logo" width={100} height={100} className="object-contain drop-shadow-sm" />
               ) : (
