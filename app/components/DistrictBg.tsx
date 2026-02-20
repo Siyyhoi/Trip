@@ -7,7 +7,7 @@ interface Props {
 }
 
 export default function DistrictBg({ district }: Props) {
-  const src = `/bg/${district}.jpg`;
+  const src = `/Bg/${district}.jpg`;
 
   useEffect(() => {
     const body = document.body;
