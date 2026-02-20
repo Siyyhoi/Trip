@@ -18,8 +18,12 @@ export const HangDongTrip = [
       zh: "清迈北部大型户外水上乐园，提供滑水道、皮划艇、跳崖、滑索和滑水活动，适合喜欢刺激活动的游客。"
     },
     detail_more: {
+      location: "202 ถนนเลียบคลองชลประทาน น้ำแพร่ อำเภอหางดง เชียงใหม่ 50230",
+      lat: 18.6958239, 
+      lng: 98.8913324,
       img: "ImgTrip/hang-dong/grand-canyon-water-park.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -41,8 +45,12 @@ export const HangDongTrip = [
       zh: "以峡谷峭壁和湄坎河闻名，水位较浅，适合游泳和拍照。"
     },
     detail_more: {
+      location: "น้ำแพร่ อำเภอหางดง เชียงใหม่ 50230",
+      lat: 18.7232836, 
+      lng: 98.8201689,
       img: "ImgTrip/hang-dong/Ob-Khan-National-Park.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -64,8 +72,12 @@ export const HangDongTrip = [
       zh: "经典兰纳风格木质寺庙，环境安静，非常适合拍照和参观。"
     },
     detail_more: {
+      location: "PWFG+45F บ้านต้นเกว๋น ซอย 3 ตำบล หนองควาย อำเภอหางดง เชียงใหม่ 50230",
+      lat: 18.7227136, 
+      lng: 98.9254005,
       img: "ImgTrip/hang-dong/Wat-Ton-Kwen.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -87,8 +99,12 @@ export const HangDongTrip = [
       zh: "泰国大型木雕村，可购买优质木雕和家居装饰品。"
     },
     detail_more: {
+      location: "MXM2+PG ตำบล ขุนคง อำเภอหางดง เชียงใหม่",
+      lat: 18.6846473, 
+      lng: 98.9502479,
       img: "ImgTrip/hang-dong/Ban-Tawai-Wood-Carving.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -110,8 +126,12 @@ export const HangDongTrip = [
       zh: "又称 Phra That Si Mueang Pong，是泰国第二座金属城堡式寺庙，外观洁白壮观。"
     },
     detail_more: {
+      location: "QV2M+3MQ ตำบล บ้านปง อำเภอหางดง เชียงใหม่ 50230",
+      lat: 18.7503332, 
+      lng: 98.8842523,
       img: "ImgTrip/hang-dong/Wat-Aranyawat.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   }
 ];

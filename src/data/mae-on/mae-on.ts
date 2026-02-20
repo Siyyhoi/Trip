@@ -18,8 +18,12 @@ export const MaeOnTrip = [
       zh: "山间小村，气候凉爽，以在地咖啡馆和传统民宿体验闻名。"
     },
     detail_more: {
+      location: "V982+695 ตำบล ห้วยแก้ว อำเภอ แม่ออน เชียงใหม่ 50130",
+      lat: 18.8653706, 
+      lng: 99.3512625,
       img: "/ImgTrip/mae-on/Mae-Kampong-Village.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -41,8 +45,12 @@ export const MaeOnTrip = [
       zh: "适合放松的地热公园，可泡脚、煮温泉蛋，并享受自然环境。"
     },
     detail_more: {
+      location: "1 ตำบล บ้านสหกรณ์ อำเภอ แม่ออน เชียงใหม่ 50130",
+      lat: 18.8145004, 
+      lng: 99.2294265,
       img: "ImgTrip/mae-on/San-Kamphaeng-Hot-Springs.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -64,8 +72,12 @@ export const MaeOnTrip = [
       zh: "靠近美康蓬的人气观景点，以清晨云海和山景全景闻名。"
     },
     detail_more: {
+      location: "อุทยานแห่งชาติแจ้ซ้อน ตำบล แจ้ซ้อน อำเภอ เมืองปาน เชียงใหม่ 52240",
+      lat: 18.8545595, 
+      lng: 99.3685236,
       img: "/ImgTrip/mae-on/Kew-Fin-Viewpoint.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -87,31 +99,39 @@ export const MaeOnTrip = [
       zh: "皇家项目示范区域，结合高地农业、社区产品与可持续旅游。"
     },
     detail_more: {
+      location: "99/5 หมู่ที่8 ถนน ห้วยแก้ว ตำบล ห้วยแก้ว อำเภอ แม่ออน เชียงใหม่ 50130",
+      lat: 18.8669089, 
+      lng: 99.3225066,
       img: "/ImgTrip/mae-on/Teen-Tok-Royal-Project-Development-Center.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
-    id: "Flight-of-the-Gibbon",
+    id: "Muang-On-Cave",
     title: {
-      en: "Flight of the Gibbon",
-      zh: "Flight of the Gibbon 丛林飞索"
+      en: "Muang On Cave",
+      zh: "孟安洞 (Muang On Cave)"
     },
     price: {
-      en: "Package-based pricing",
-      zh: "按套票计费"
+      en: "Please check at entrance",
+      zh: "请在入口处确认门票"
     },
     hours: {
-      en: "Daily sessions (advance booking recommended)",
-      zh: "每日分时段开放（建议提前预约）"
+      en: "Daily 08:00 – 17:00",
+      zh: "每天 08:00 – 17:00"
     },
     detail: {
-      en: "A zipline adventure through forest canopy in Mae On, ideal for travelers looking for outdoor activities.",
-      zh: "位于湄翁森林中的飞索体验，适合喜欢户外活动与冒险的游客。"
+      en: "Tham Muang On is not far from San Kamphaeng Hot Springs. It is a cave under a limestone mountain with stalactites and stalagmites that have naturally emerged. It is also home to Phra That Nom Pha, a stalagmite containing the hair of the Lord Buddha, which is very uniquely beautiful because it is not a pagoda created by human hands, but rather by natural phenomena.",
+      zh: "孟安洞距离山甘烹温泉不远。这是一座位于石灰岩山下的洞穴，拥有自然形成的钟乳石和石笋。这里还供奉着包含佛陀头发的石笋“Phra That Nom Pha”，它非常独特美丽，因为它不是人类建造的佛塔，而是自然现象的杰作。"
     },
     detail_more: {
-      img: "/ImgTrip/mae-on/Flight-of-the-Gibbon.jpg",
-      video: ""
+      location: "Q6PQ+G6P ตำบล บ้านสหกรณ์ อำเภอ แม่ออน เชียงใหม่ 50130", 
+      lat: 18.7863323, 
+      lng: 99.2354941,
+      img: "ImgTrip/mae-on/Muang-On-Cave.jpg",
+      video: "",
+      credit: ""
     }
   }
 ];

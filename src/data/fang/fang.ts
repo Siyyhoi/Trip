@@ -18,8 +18,12 @@ export const fangTrips = [
       zh: "这是泰国第二高峰，也是芳县冬季非常受欢迎的旅游景点。群山常被薄雾笼罩，营造出迷人的景色。山上天气寒冷且多风，建议穿着保暖衣物。"
     },
     detail_more: {
+      location: "224 ตำบล โป่งน้ำร้อน อำเภอ ฝาง เชียงใหม่ 50110",
+      lat: 20.0321111, 
+      lng: 99.145329,
       img: "ImgTrip/fang/doi-pha-hom-pok.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -41,8 +45,12 @@ export const fangTrips = [
       zh: "位于国家公园内的天然温泉，水温约 40–88°C。热门活动包括煮鸡蛋、泡脚和矿物浴。园区附近提供露营区和住宿服务。"
     },
     detail_more: {
+      location: "X583+9P6 Chiangmai 4050 Road อำเภอ ฝาง เชียงใหม่ 50110",
+      lat: 19.9656768, 
+      lng: 99.1546307,
       img: "ImgTrip/fang/fang-hot-spring.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -64,8 +72,12 @@ export const fangTrips = [
       zh: "这里是皇家农业站的所在地，以冬季花卉闻名。特别是每年一月盛开的虎王花（又称泰国樱花），沿着山路形成美丽的粉色隧道，景色美不胜收。"
     },
     detail_more: {
+      location: "ตำบล แม่สูน อำเภอ ฝาง เชียงใหม่ 50320",
+      lat: 19.8702668, 
+      lng: 99.0526599,
       img: "ImgTrip/fang/doi-ang-khang.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -87,8 +99,12 @@ export const fangTrips = [
       zh: "著名的文化景点，游客可前来参拜善加财佛（Sangkhachai）与白玉观音祈求好运。寺庙环境清幽，适合休闲与冥想，同时还能欣赏蒙平区（Mon Pin）的美丽全景。"
     },
     detail_more: {
+      location: "W542+FCH Unnamed Road ตำบล สันทราย อำเภอ ฝาง เชียงใหม่ 50110",
+      lat: 19.9061412, 
+      lng: 99.1508336,
       img: "ImgTrip/fang/wat-phra-that-chaloem-phrakiat.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   }
 ];

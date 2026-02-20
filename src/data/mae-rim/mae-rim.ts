@@ -18,8 +18,12 @@ export const MaeRimTrips = [
       zh: "湄沙瀑布是清迈著名的瀑布，共有10层。这里终年流水不断，景色优美，非常适合游泳、避暑以及在自然中野餐。"
     },
     detail_more: {
+      location: "WV4X+H63 ซอย น้ำตกแม่สา 4 ตำบล แม่แรม อำเภอแม่ริม เชียงใหม่ 50180",
+      lat: 18.9061569, 
+      lng: 98.8960827,
       img: "ImgTrip/mae-rim/Mae-Sa-Waterfall.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -41,8 +45,12 @@ export const MaeRimTrips = [
       zh: "泰北最大的大象营之一。游客可以通过给大象洗澡、喂食、观看大象绘画表演以及体验象夫生活等活动，近距离接触可爱的大象。"
     },
     detail_more: {
+      location: "101 ตำบล แม่แรม อำเภอแม่ริม เชียงใหม่ 50230",
+      lat: 18.8998083, 
+      lng: 98.8754329,
       img: "ImgTrip/mae-rim/Mae-Sa-Elephant-Camp.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -64,8 +72,12 @@ export const MaeRimTrips = [
       zh: "这里拥有著名的“丛林过山车”，让您在森林中体验过山车的刺激快感。此外还有丛林滑索、巨型秋千以及类似蹦极的“Quick Jump”（14米高空跳跃）等挑战项目。"
     },
     detail_more: {
+      location: "99 9 ตำบล โป่งแยง อำเภอแม่ริม เชียงใหม่ 50180",
+      lat: 18.9167205, 
+      lng: 98.8216974,
       img: "ImgTrip/mae-rim/Pongyang-Jungle-Coaster-Zipline-Camp-&Resort.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -87,8 +99,12 @@ export const MaeRimTrips = [
       zh: "动物爱好者可以在这里与真老虎近距离接触。这里有从幼崽到成年大虎等不同体型的老虎。老虎并未被铁链锁住，游客可以在工作人员陪同下进入笼内拍照互动。"
     },
     detail_more: {
+      location: "51/1 หมู่ที่ 7 ถนน แม่ริม - สะเมิง ตำบล ริมใต้ อำเภอแม่ริม เชียงใหม่ 50180",
+      lat: 18.9249445, 
+      lng: 98.9318453,
       img: "ImgTrip/mae-rim/Tiger-Kingdom-Mae-Rim.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -110,8 +126,12 @@ export const MaeRimTrips = [
       zh: "这是一座皇家寺庙，原为达拉·拉萨米王妃宫殿附近的墓地。寺庙建筑精美，充满了兰纳艺术风格，是清迈非常值得参拜的寺庙之一。"
     },
     detail_more: {
+      location: "WW6R+7GJ ตำบล ริมใต้ อำเภอแม่ริม เชียงใหม่ 50180",
+      lat: 18.911194, 
+      lng: 98.941194,
       img: "ImgTrip/mae-rim/Wat-Pa-Dara-Phirom.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -133,8 +153,12 @@ export const MaeRimTrips = [
       zh: "一个风景优美的大型水库。这里的亮点是巨大的金刚稻草雕塑，非常适合拍照。游客可以在水边的竹屋用餐，或者租脚踏船在湖上游玩。"
     },
     detail_more: {
+      location: "ตำบล ดอนแก้ว อำเภอแม่ริม เชียงใหม่ 50180",
+      lat: 18.8675364, 
+      lng: 98.9387502,
       img: "ImgTrip/mae-rim/Huay-Thung-Thao.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -156,8 +180,12 @@ export const MaeRimTrips = [
       zh: "泰国国家天文研究所（NARIT）总部所在地。园内设有天文展览、数字天文馆以及天文台。这是一个适合家庭和科学爱好者学习天文知识的好地方。"
     },
     detail_more: {
+      location: "260 อำเภอแ ม่ริม ตำบล ดอนแก้ว อำเภอแม่ริม เชียงใหม่ 50180",
+      lat: 18.8527479, 
+      lng: 98.9572773,
       img: "ImgTrip/mae-rim/Princess-Sirindhorn-AstroPark.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   }
 ];

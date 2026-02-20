@@ -18,8 +18,12 @@ export const SanKamphaengTrip = [
       zh: "这是三甘烹著名的传统文化节，以色彩鲜艳的手工伞闻名。游客可以参观制伞村，欣赏传统表演，购买当地手工艺品，并在街道上与装饰精美的雨伞拍照留念。"
     },
     detail_more: {
+      location: "41/67 ตำบลต้นเปา อำเภอสันกำแพง เชียงใหม่ 50130",
+      lat: 18.764504746543157, 
+      lng: 99.08192622361146,
       img: "ImgTrip/san-kamphaeng/Borsang-Umbrella-Festival.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -41,8 +45,12 @@ export const SanKamphaengTrip = [
       zh: "这是一个风景优美的大型休闲区。游客可以在水库旁野餐、露营、钓鱼或划船。水坝道路适合驾车观景和拍照，也是欣赏日落的绝佳地点。同时，它对当地生态系统的发展具有重要作用。"
     },
     detail_more: {
+      location: "P644+CGF, Unnamed Road, ตำบล ออนใต้ อำเภอสันกำแพง เชียงใหม่ 50130",
+      lat: 18.705984194983127, 
+      lng: 99.20630264732885,
       img: "ImgTrip/san-kamphaeng/Huai-Lan-Reservoir.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -64,8 +72,12 @@ export const SanKamphaengTrip = [
       zh: "这是清迈最新的当代艺术博物馆，位于三甘烹路。馆内展出泰国及国际艺术家的轮换展览、短片和创意装置艺术。其独特的镜面建筑设计已成为清迈的新地标。"
     },
     detail_more: {
+      location: "122, Moo 7 Tonpao อำเภอสันกำแพง เชียงใหม่ 50130",
+      lat: 18.757421868711894, 
+      lng: 99.09376045654409,
       img: "ImgTrip/san-kamphaeng/MAIIAM-Contemporary-Art-Museum.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -87,8 +99,12 @@ export const SanKamphaengTrip = [
       zh: "位于三甘烹–湄翁路上的新旅游景点。农场四周环绕群山，采用荷兰风格装饰。游客可以近距离接触迷你马、绵羊和鹅，非常适合家庭和喜爱动物的游客。"
     },
     detail_more: {
+      location: "56 หมู่ 5 ตำบล ออนใต้ อำเภอสันกำแพง เชียงใหม่ 50130",
+      lat: 18.732934058190533, 
+      lng: 99.19539341892028,
       img: "ImgTrip/san-kamphaeng/Dutch-Farm-Miniature-Horse-Farm.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   }
 ];

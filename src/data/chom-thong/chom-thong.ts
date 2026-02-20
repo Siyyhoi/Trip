@@ -18,8 +18,12 @@ export const ChomThongTrips = [
       zh: "茵他侬国家公园是清迈府著名的旅游胜地，全年气候凉爽，是游客热门的打卡地点。这里自然资源丰富，游客可以在“暹罗之巅（Highest Point in Siam）”标志前拍照留念。"
     },
     detail_more: {
+      location: "119 ตำบลบ้านหลวง อำเภอจอมทอง เชียงใหม่ 50160",
+      lat: 18.5902719, 
+      lng: 98.4863298,
       img: "ImgTrip/chom-thong/Doi-Inthanon-National-Park.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -41,12 +45,16 @@ export const ChomThongTrips = [
       zh: "湄亚瀑布以层层倾泻而下的壮丽水流而闻名，被誉为茵他侬国家公园内最美丽的瀑布之一，也是泰国最著名的瀑布之一。瀑布约有30层，雨季时形成壮观的水帘景象，周围被茂密森林环绕，非常适合休闲放松。"
     },
     detail_more: {
+      location: "Highway 1009 , Ban Luang , 50160 Chom Thong , Chiang Mai",
+      lat: 18.4396776, 
+      lng: 98.5979932,
       img: "ImgTrip/chom-thong/Mae-Ya-Waterfall.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
-    id: "Mae-Tea-Waterfall",
+    id: "Mae-Tia-Waterfall",
     title: {
       en: "Mae Tia Waterfall",
       zh: "湄提亚瀑布 (Mae Tia Waterfall)"
@@ -64,8 +72,12 @@ export const ChomThongTrips = [
       zh: "湄提亚瀑布是一座位于欧銮国家公园区域内、隐藏在森林深处的四层大型瀑布。四周绿树成荫，环境清幽，瀑布水流清凉，非常适合亲近自然与消暑放松。"
     },
     detail_more: {
+      location: "น้ำตกแม่เตี๊ยะ ตำบล ดอยแก้ว อำเภอจอมทอง เชียงใหม่ 50160",
+      lat: 18.3989196, 
+      lng: 98.6003517,
       img: "ImgTrip/chom-thong/Mae-Tea-Waterfall.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   }
 ];

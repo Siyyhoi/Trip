@@ -18,8 +18,12 @@ export const DoiSaketTrips = [
       zh: "这是位于山顶的素帖沙革佛塔金色佛塔，十分醒目。该佛塔已有一千多年历史，塔内供奉着佛陀的头发舍利。"
     },
     detail_more: {
+      location: "5 118 ตำบล เชิงดอย อำเภอดอยสะเก็ด เชียงใหม่ 50220",
+      lat: 18.8725775, 
+      lng: 99.1400038,
       img: "ImgTrip/doi-saket/Wat-Phra-That-Doi-Saket.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -41,8 +45,12 @@ export const DoiSaketTrips = [
       zh: "一家位于森林与溪流中的咖啡馆，环境清幽凉爽。咖啡馆由木屋建筑组成，包括泰山屋、霍比特屋以及吊桥，是热门的拍照打卡地点。进入店铺需要步行约 200 米，穿过竹林、沿着溪流并跨过吊桥，真正符合“Take a Walk（走进去）”的概念。到达后能完全沉浸在大自然之中。"
     },
     detail_more: {
+      location: "98 Baan Pongsamaki, ตำบล ป่าเมี่ยง อำเภอดอยสะเก็ด เชียงใหม่ 50220",
+      lat: 18.9088281, 
+      lng: 99.2486855,
       img: "ImgTrip/doi-saket/Take-a-Walk-house-&-coffee.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -64,8 +72,12 @@ export const DoiSaketTrips = [
       zh: "这是一个占地超过 302 莱的大型植物园，是学习和研究多种植物的中心，包括棕榈类、苏铁、耐旱植物、多肉植物、开花植物、凤梨科植物、观叶植物、蕨类以及季节性花卉。同时园区布置精美，适合游客参观和休闲。"
     },
     detail_more: {
+      location: "118 Chiang Mai , Route 118, ตำบล เชิงดอย อำเภอดอยสะเก็ด เชียงใหม่ 50220",
+      lat: 18.857584, 
+      lng: 99.098232,
       img: "ImgTrip/doi-saket/Tweechol-Botanic-Garden-&-Horizon-Village.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -87,8 +99,12 @@ export const DoiSaketTrips = [
       zh: "这座横跨湄广河的吊桥连接了班帕萨甘村与沙革县，不仅方便当地居民出行，这里的景色也十分优美。如今已成为沙革县新的地标之一。"
     },
     detail_more: {
+      location: "W4HH+948 ตำบล ลวงเหนือ อำเภอดอยสะเก็ด เชียงใหม่ 50220",
+      lat: 18.9284858, 
+      lng: 99.1233071,
       img: "ImgTrip/doi-saket/Mae-Kuang-Udom-Thara-Reservoir-from-the-Dam-Road.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -110,8 +126,12 @@ export const DoiSaketTrips = [
       zh: "一家位于溪流旁的餐厅和咖啡馆，环境清凉舒适，交通方便，距离清迈市区不远。店铺被高大的树木环绕，可听到潺潺流水声，非常适合家庭、朋友聚会或情侣前来放松休闲。"
     },
     detail_more: {
+      location: "116 ตำบล ป่าเมี่ยง อำเภอดอยสะเก็ด เชียงใหม่ 50200",
+      lat: 19.0113876, 
+      lng: 99.2957496,
       img: "ImgTrip/doi-saket/Pang-Fan.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   }
 ];

@@ -18,8 +18,12 @@ export const MaeAiTrips = [
         zh: "这里新增了多个拍照打卡点，游客可以坐下来喝咖啡，欣赏群山与花园的自然风光，感受罗伊斋拉花园的美丽氛围。"
       },
       detail_more: {
+        location: "888 ตำบล ท่าตอน อำเภอ แม่อาย เชียงใหม่ 50280",
+        lat: 20.0819467, 
+        lng: 99.487844,
         img: "ImgTrip/mae-ai/ROI-JAI-RAK-GARDEN-&-Market.jpg",
-        video: ""
+        video: "",
+        credit: ""
       }
     },
     {
@@ -41,8 +45,12 @@ export const MaeAiTrips = [
         zh: "欧式风格的农业旅游景点，设有蔬菜水果园区、动物农场，并可骑自行车游览。园内还有纪念品商店、餐厅、咖啡馆、葡萄酒吧和披萨店，价格实惠且美味。"
       },
       detail_more: {
+        location: "3FG6+987 320 ตำบล ท่าตอน อำเภอ แม่อาย เชียงใหม่ 50280",
+        lat: 20.0759148, 
+        lng: 99.4607919,
         img: "ImgTrip/mae-ai/Hompandin-Farm.jpg",
-        video: ""
+        video: "",
+        credit: ""
       }
     },
     {
@@ -64,8 +72,12 @@ export const MaeAiTrips = [
         zh: "这是一座依山而建的宏伟寺庙，风景秀丽。寺庙建筑群沿山坡分布，共分九层。登上顶层，可以俯瞰麦爱县 (Mae Ai) 全景及周围的群山。"
       },
       detail_more: {
+        location: "3965+6W6 ตำบล ท่าตอน อำเภอ แม่อาย เชียงใหม่ 50280",
+        lat: 20.060559, 
+        lng: 99.359773,
         img: "ImgTrip/mae-ai/Wat-tha-ton.jpg",
-        video: ""
+        video: "",
+        credit: ""
       }
     },
     {
@@ -87,8 +99,12 @@ export const MaeAiTrips = [
         zh: "这里不仅仅是一个橘园，还提供乘船游览和采摘橘子的活动。橘子品种包括赛南丰橘 (Sai Nam Phueng)、弗里蒙特橘 (Fremont) 和金皮橘等。此外，园内还有火龙果、香蕉、一个小咖啡馆，以及美丽的全景视野。"
       },
       detail_more: {
+        location: "ทางหลวงแผ่นดิน 107 หมู่5 ตำบล ท่าตอน อำเภอ แม่อาย เชียงใหม่ 50280",
+        lat: 20.0531032, 
+        lng: 99.4049796,
         img: "ImgTrip/mae-ai/Thanathorn-Orchard.jpg",
-        video: ""
+        video: "",
+        credit: ""
       }
     },
     {
@@ -110,8 +126,12 @@ export const MaeAiTrips = [
         zh: "位于泰缅边境的美丽自然旅游胜地，可以欣赏两国的壮丽景色。这里是观赏日出和日落的热门地点，游客通常喜欢一边享用当地的掸族美食，一边欣赏美景。"
       },
       detail_more: {
+        location: "37PQ+GF5 ตำบล มะลิกา อำเภอ แม่อาย เชียงใหม่ 50280",
+        lat: 20.0862532, 
+        lng: 99.2887485,
         img: "ImgTrip/mae-ai/Mon-Doi-Lang.jpg",
-        video: ""
+        video: "",
+        credit: ""
       }
     }
   ];

@@ -18,8 +18,12 @@ export const MueangChiangMaiTrip = [
       zh: "清迈最具代表性的寺庙，位于素贴山上，可俯瞰清迈全景，是首次到访清迈的必去景点。"
     },
     detail_more: {
+      location: "ตำบลสุเทพ อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200",
+      lat: 18.804853662014455, 
+      lng: 98.92143680296009,
       img: "ImgTrip/mueang-chiang-mai/Wat-Phra-That-Doi-Suthep.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -41,8 +45,12 @@ export const MueangChiangMaiTrip = [
       zh: "位于古城内的历史名寺，以巨大的古塔和兰纳建筑风格闻名。"
     },
     detail_more: {
+      location: "QXPP+QCQ 103 ถ. พระปกเกล้า ตำบลศรีภูมิ อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200",
+      lat: 18.786983036298537, 
+      lng: 98.98745453580554,
       img: "ImgTrip/mueang-chiang-mai/Wat-Chedi-Luang.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -64,8 +72,12 @@ export const MueangChiangMaiTrip = [
       zh: "清迈最重要的寺庙之一，以传统兰纳艺术和宁静氛围著称。"
     },
     detail_more: {
+      location: "2 ถนน สามล้าน ตำบลศรีภูมิ อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200",
+      lat: 18.78852212145972, 
+      lng: 98.98221548603019,
       img: "ImgTrip/mueang-chiang-mai/Wat-Phra-Singh.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -87,8 +99,12 @@ export const MueangChiangMaiTrip = [
       zh: "清迈古城地标城门，适合步行游览、参加活动和拍照打卡。"
     },
     detail_more: {
+      location: "ถ. ท่าแพ ตำบลช้างคลาน อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200",
+      lat: 18.787723059580635, 
+      lng: 98.9934398090893,
       img: "ImgTrip/mueang-chiang-mai/Tha-Phae-Gate.jpg",
-      video: ""
+      video: "",
+      credit: ""
     }
   },
   {
@@ -110,8 +126,39 @@ export const MueangChiangMaiTrip = [
       zh: "清迈知名夜间市场，汇集街头美食、纪念品、手工艺品和现场表演。"
     },
     detail_more: {
+      location: "ถ. ช้างคลาน ตำบล ช้างม่อย อำเภอเมืองเชียงใหม่ เชียงใหม่ 50100",
+      lat: 18.785197080467, 
+      lng: 99.00038438802805,
       img: "ImgTrip/mueang-chiang-mai/Chiang-Mai-Night-Bazaar.jpg",
-      video: ""
+      video: "",
+      credit: ""
+    }
+  },
+  {
+    id: "Three-Kings-Monument",
+    title: {
+      en: "Three Kings Monument",
+      zh: "三王纪念碑 (Three Kings Monument)"
+    },
+    price: {
+      en: "Free Admission",
+      zh: "免费入场"
+    },
+    hours: {
+      en: "Open 24 hours",
+      zh: "24小时开放"
+    },
+    detail: {
+      en: "A bronze monument dedicated to King Mengrai, King Ramkhamhaeng, and King Ngam Muang, the founding fathers of Chiang Mai. The monument is situated in a spacious square, often used for cultural festivals, and is surrounded by historical buildings and museums.",
+      zh: "这座铜像纪念了共同建立清迈的三位国王：孟莱王、兰甘亨大帝和南蒙王。纪念碑位于一个宽敞的广场上，经常举办文化节日活动，周围环绕着历史建筑和博物馆。"
+    },
+    detail_more: {
+      location: "QXRP+3WX ถ. พระปกเกล้า ตำบลศรีภูมิ อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200",
+      lat: 18.79023847080222, 
+      lng: 98.98750143372312,
+      img: "ImgTrip/mueang-chiang-mai/Three-Kings-Monument.jpg",
+      video: "",
+      credit: ""
     }
   }
 ];
